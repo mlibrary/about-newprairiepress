@@ -1,0 +1,135 @@
+media_folder: static/assets
+public_folder: assets
+public_folder_relative: false
+collections:
+  - name: news
+    label: News
+    folder: src/content/news
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { name: templateKey, label: "Template Key", widget: hidden, default: news }
+      - { name: title, label: Title }
+      - { name: summary, label: Summary }
+      - { name: date, label: Published, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
+  - name: books
+    label: Books
+    folder: src/content/books
+    create: true
+    slug: "{{authorLastname}}-{{title}}"
+    fields:
+      - { name: templateKey, label: "Template Key", widget: hidden, default: book }
+      - { name: title, label: Title }
+      - { name: authorLastname, label: "Primary Author Last Name" }
+      - { name: author, label: "Author(s)" }
+      - { name: cover, label: Cover, widget: image }
+      - { name: description, label: Description }
+      - { name: orderOnPage, label: "Order on Front Page", widget: number }
+      - { name: readLink, label: "Read Link" }
+      - { name: buyLink, label: "Buy Link", required: false }
+  - name: journals
+    label: Journals
+    folder: src/content/journals
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { name: templateKey, label: "Template Key", widget: hidden, default: journal }
+      - { name: title, label: Title } 
+      - { name: cover, label: Cover, widget: image }
+      - { name: description, label: Description }
+      - { name: orderOnPage, label: "Order on Front Page", widget: number }
+      - { name: readLink, label: "Read Link" }
+      - { name: buyLink, label: "Buy Link", required: false }
+  - name: pages
+    label: Pages
+    files:
+      - file: src/content/home.md
+        name: home
+        label: Home
+        editor:
+          preview: false
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: home-page }
+          - name: taglineSection
+            label: "Tag Line Section"
+            widget: object
+            fields:
+              - { name: text, label: Text, widget: markdown }
+      - file: "src/content/about.md"
+        name: about
+        label: About
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: about-page }
+          - { name: title, label: About }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/journals.md"
+        name: journals
+        label: "Journals"
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: journals-page }
+          - { name: title, label: Journals }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/book-textbook-proposals.md"
+        name: bookProposals
+        label: "Book and Textbook Proposals"
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: books-page }
+          - { name: title, label: Book and Textbook Proposals }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/conference-proposals.md"
+        name: conferenceProposals
+        label: "Conference Proposals"
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: books-page }
+          - { name: title, label: Conference Proposals }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/journal-proposals.md"
+        name: journalProposals
+        label: "Journal Proposals"
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: journalProposals-page }
+          - { name: title, label: Journal Proposals }
+          - { name: body, label: Body, widget: markdown }    
+      - file: "src/content/contact.md"
+        name: contact
+        label: Contact
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: contact-page }
+          - { name: title, label: Contact }
+          - { name: body, label: Body, widget: markdown }      
+      - file: "src/content/publish-with-us.md"
+        name: publish
+        label: Publish With Us
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: publish-page }
+          - { name: title, label: Publish With Us }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/policies.md"
+        name: policies
+        label: Policies
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: policies-page }
+          - { name: title, label: Policies }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/rights-permissions.md"
+        name: rights-permissions
+        label: Rights and Permissions
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: rightsPermissions-page }
+          - { name: title, label: Rights and Permissions }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/our-team.md"
+        name: our-team
+        label: Our Team
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: ourTeam-page }
+          - { name: title, label: Our Team }
+          - { name: body, label: Body, widget: markdown }
+      - file: "src/content/accessibility.md"
+        name: accessibility
+        label: Accessibility
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: accessibility-page }
+          - { name: title, label: Accessibility }
+          - { name: body, label: Body, widget: markdown }
