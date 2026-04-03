@@ -5,10 +5,10 @@ title: Contact Us
 ## Press Representatives
 
 ### Ryan Otto
-Scholarly Communication Librarian (Journals, Conferences, General Questions, Technical Questions)
+Scholarly Communication Librarian (journals, conferences, general questions, technical questions)
 
 ### Carolyn Jackson
-Scholarly Education and Open Educational Resources Librarian (Books and Open Educational Resources)
+Scholarly Education and Open Educational Resources Librarian (books and open educational resources)
 
 ## OLH Technical Team
 Platform/Tech Manager

@@ -2,10 +2,10 @@
 templateKey: ourTeam-page
 title: Meet the Team
 ---
-New Prairie Press is an open access publishing imprint of Kansas State University Libraries. Its staff are members of the Libraries’ Open Publishing Exchange (OPE) office.
+New Prairie Press is an open access publishing imprint of Kansas State University Libraries. Its staff are members of the Libraries’ [Open Publishing Exchange](https://lib.k-state.edu/services-support/scholarly-communication/) (OPE) office.
 
 * [Learn more about the New Prairie Press and OPE team](https://lib.k-state.edu/services-support/scholarly-communication/about/)
-* [Contact Us](/contact)
+* [Contact us](/contact)
 
 ## David Molik, Department Head
 David works to advance strategies that enhance the long-term accessibility, integrity and impact of research and scholarly outputs while fostering interdisciplinary collaborations.
