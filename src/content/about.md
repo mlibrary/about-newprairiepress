@@ -12,4 +12,4 @@ Publications from all disciplines–written, edited or sponsored by scholars aff
 * Janeway, our journal management and publishing platform.
 * [Fulcrum](https://fulcrum.org/newprairiepress), our monograph and textbook publishing platform.
 * Pressbooks, a content authoring tool.
-* [LibreTexts](https://k-state.commons.libretexts.org/catalog), our open textbook repository. 
+* [LibreTexts](https://k-state.commons.libretexts.org/catalog), our open textbook repository.
