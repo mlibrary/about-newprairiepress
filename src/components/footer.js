@@ -23,12 +23,12 @@ const Footer = () => {
         <div className="row justify-content-between">
           <div className="col-md-4 contact">
             <a href="https://lib.k-state.edu/" className="block logo-link"><img src="/assets/ksu-lib-logo.png" alt="Kansas State University Libraries" height="auto" width="300" /></a>
-            <small className="mt-3 text-light d-block">K-State Libraries<br/>
+            <span className="mt-3 text-light d-block">K-State Libraries<br/>
             Open Publishing Exchange<br/>
             1117 Mid-Campus Drive North<br/>
             Manhattan, KS 66506
-            </small>          
-            <small className="mt-3 text-light d-block"><a href="mailto:ope@k-state.edu" className="text-light">ope@k-state.edu</a></small>            
+            </span>          
+            <span className="mt-3 text-light d-block"><a href="mailto:ope@k-state.edu" className="text-light">ope@k-state.edu</a></span>            
           </div>                    
           <div className="col-md-4">
             <ul className="list-unstyled second-nav">

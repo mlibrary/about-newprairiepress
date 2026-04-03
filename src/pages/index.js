@@ -83,21 +83,11 @@ const IndexPage = ({data}) => {
       <section className="books-container container">
           <BookList books={books} />
           <div className="row mt-4">
-            <div className="col-md-12">
-              <p className="text-right">
-                <a href="https://fulcrum.org/newprairiepress">Browse our books</a>
-              </p>
-            </div>
           </div>
         </section>
         <section className="books-container container">
           <JournalList journals={journals} />
           <div className="row mt-4">
-            <div className="col-md-12">
-              <p className="text-right">
-                <a href="/journals">Browse our journals</a>
-              </p>
-            </div>
           </div>
         </section>
         <section className="tagline-container">
@@ -108,12 +98,9 @@ const IndexPage = ({data}) => {
               </div>
             </div>
             <div className="row mt-4">
-              <div className="cta-tagline col-md-6 text-center">
+              <div className="cta-tagline col-md-10">
                 <a className="btn btn-lg btn-primary" href={tagline.buttonUrl}>{tagline.buttonLabel}</a>
-              </div>
-              <div className="cta-tagline col-md-6 text-center">
-                <a className="btn btn-lg btn-primary" href="/publish-with-us">Publish With Us</a>
-              </div>
+              </div>              
             </div>
           </div>
         </section>

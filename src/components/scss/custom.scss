@@ -119,6 +119,11 @@ p a.btn {
 
 .btn-secondary {
   color: #fff;
+  background-color: #3A1C61;
+}
+
+.btn-secondary:hover {
+  background-color: #26183f;
 }
 
 .btn-secondary:focus {
@@ -128,6 +133,7 @@ p a.btn {
   -o-transition: outline .05s ease-out;
   transition: outline .05s ease-out;
   box-shadow: none; 
+  background-color: #26183f;
 }
 
 
@@ -148,8 +154,16 @@ header {
   border-bottom: 4px solid $npp-light-purple;
 }
 
-.navbar-dark {
+.navbar-light {
   @include myriad-pro;
+
+  .navbar-toggler {
+    color: rgba(38, 24, 63, 1);
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(38, 24, 63, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+  }
+
 }
 
 .nav-scroller {
@@ -157,8 +171,7 @@ header {
   background-color: $npp-light-beige;
   text-transform: uppercase;
   box-shadow: 0 2px 5px 0 #afafaf;
-  position: relative;
-  font-size: 1.1em;
+  font-size: 1.25em;
 
   button {
     text-transform: uppercase;
@@ -178,6 +191,7 @@ header {
   .dropdown-menu {
     border-radius: 0;
     background-color: $npp-light-beige;
+    font-size: 1.25rem;
   }
 }
 
@@ -220,11 +234,10 @@ header {
   .featured {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
     h2 {
-      text-orientation: mixed;
-      writing-mode: vertical-lr;
-      margin: 0;
+      margin-top: .5rem;
     }
   }
 
@@ -258,7 +271,7 @@ header {
     }
 
     .card-text {
-      font-size: .9rem;
+      font-size: 1rem;
     }
 
     .cover-only-img {
@@ -280,6 +293,11 @@ header {
   position: relative;
   padding: 8rem 0;
   border-top: 1px solid rgba(0,0,0,.125);
+
+  .cta-tagline {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 .tagline-container:before {
@@ -290,7 +308,6 @@ header {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.5;
   background-image: url("/assets/konza-prairie-crop.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -301,9 +318,12 @@ header {
   @include myriad-pro;
   font-weight: 400;
   font-size: 2rem;
-  margin-left: 1.5em;
   position: relative;
-  color: $npp-black-80;
+  color: #FFF;
+
+  .tag {
+    margin-bottom: 0;
+  }
 }
 
 // home - catalog
@@ -471,7 +491,6 @@ header {
   }
 
   a.logo-link, a {
-    text-decoration: underline;
     border-bottom: 0px;
   }
 
@@ -562,8 +581,14 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+  .header-nav-container > header > .container > .row > .col-md-8 {
+    display: flex;
+    justify-content: center;
+  }
+  
   .card-img {
     width: auto;
+    max-width: 300px;
   }
   .navbar-brand-logo {
     width: 300px;
