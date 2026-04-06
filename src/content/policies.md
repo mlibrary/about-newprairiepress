@@ -3,14 +3,14 @@ templateKey: policies-page
 title: Policies
 ---
 ## Scope
-Publications from all disciplines–written, edited or sponsored by scholars affiliated with Kansas State University–are welcome at New Prairie Press (NPP). In addition to scholarly journals, NPP publishes conference proceedings, faculty- and staff-authored scholarly monographs, open access textbooks, and other special publications. 
+Publications from all disciplines — written, edited or sponsored by scholars affiliated with Kansas State University — are welcome at New Prairie Press (NPP). In addition to scholarly journals, NPP publishes conference proceedings, faculty- and staff-authored scholarly monographs, open-access textbooks, and other special publications. 
 
 Editors interested in starting or moving an open access journal, or K-State faculty and administrators exploring options for open conference proceedings or monographs, should contact the [New Prairie Press team](/contact).
 
 ## Copyright and Open Access
 New Prairie Press is an open-access publisher, and all our publications are freely available to read and download.
 
-Most works published on New Prairie Press are released under a [Creative Commons](https://creativecommons.org) license, which clearly defines the ways in which the material may be reused. The specific license, and the types of reuses it permits, are indicated for each publication. All Creative Commons licenses require proper attribution, including the creator’s name, source information, and links to both the original work and the applicable license.
+Most works published on New Prairie Press are released under a [Creative Commons](https://creativecommons.org) license, which clearly defines the ways in which the material may be reused. The specific license, and the types of reuses it permits, are indicated for each publication. All Creative Commons licenses require proper attribution, including the creator’s name, source information and links to both the original work and the applicable license.
 
 If you wish to reuse a publication in a manner not covered by its Creative Commons license, or if the work is not licensed under Creative Commons, please contact the copyright holder directly. When known, copyright owners are listed in the publication or its metadata. Any reuse of publications should include appropriate citations and a link back to the original source.
 
@@ -37,7 +37,7 @@ New Prairie Press utilizes the following publishing platforms: Janeway, Pressboo
 ### Author(s) are responsible for:
 * Delivering text and images in file formats and specifications requested by editors or the New Prairie Press team.
 * Obtaining permission to use copyrighted materials created by third parties.
-* Including DOIs for citations of journal articles in reference lists, when available.
+* Including DOIs for journal article citations in reference lists, when available.
 * Proofreading.
 
 ## Costs and Fees
