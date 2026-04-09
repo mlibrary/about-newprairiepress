@@ -8,7 +8,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="header-nav-container navbar-dark">    
+    <div className="header-nav-container navbar-light">    
       <header>
         <div className="container py-2">
           <div className="row">
@@ -22,8 +22,11 @@ const Navbar = () => {
         </div>       
       </header>
       <div className="nav-scroller py-1">
-        <div className="container">
-          <nav className="nav d-flex justify-content-between collapse">
+        <div className="container navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav className="justify-content-between collapse navbar-collapse" id="navbarSupportedContent">
             <div className="dropdown show">
               <button className="nav-link text-dark dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
                 About
