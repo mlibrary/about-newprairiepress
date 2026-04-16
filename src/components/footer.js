@@ -39,7 +39,7 @@ const Footer = () => {
                 </ul>
               </li>
               <li><a className="text-light" href="https://fulcrum.org/newprairiepress">Books</a></li>
-              <li><a className="text-light" href="/journals">Journals</a></li>
+              <li><a className="text-light" href="https://journals.newprairiepress.org/">Journals</a></li>
             </ul>
           </div>  
           <div className="col-md-4">
