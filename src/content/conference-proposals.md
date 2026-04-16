@@ -16,4 +16,4 @@ New Prairie Press offers the following conference proceedings publishing service
 
 Ready to get started?
 * **Review our services and [policies](/policies)** to determine whether New Prairie Press will meet your needs.
-* **Set up a consultation with the [New Prairie Press team](/contact)** if you'd like to learn more about our services or discuss whether your conference might be a good fit for all parties and/or the process of onboarding the conference to the Press.
+* **Set up a consultation with the [New Prairie Press team](/our-team)** if you'd like to learn more about our services or discuss whether your conference might be a good fit for all parties and/or the process of onboarding the conference to the Press.

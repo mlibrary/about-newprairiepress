@@ -17,5 +17,5 @@ secondCallToActionSection:
 thirdCallToActionSection:
   buttonLabel: Support New Prairie Press
   description: Your support helps us make scholarship free and accessible.
-  buttonUrl: /contact
+  buttonUrl: /our-team
 ---

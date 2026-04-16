@@ -5,7 +5,7 @@ title: Policies
 ## Scope
 Publications from all disciplines — written, edited or sponsored by scholars affiliated with Kansas State University — are welcome at New Prairie Press (NPP). In addition to scholarly journals, NPP publishes conference proceedings, faculty- and staff-authored scholarly monographs, open-access textbooks, and other special publications. 
 
-Editors interested in starting or moving an open access journal, or K-State faculty and administrators exploring options for open conference proceedings or monographs, should contact the [New Prairie Press team](/contact).
+Editors interested in starting or moving an open access journal, or K-State faculty and administrators exploring options for open conference proceedings or monographs, should contact the [New Prairie Press team](/our-team).
 
 ## Copyright and Open Access
 New Prairie Press is an open-access publisher, and all our publications are freely available to read and download.

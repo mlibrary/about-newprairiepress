@@ -34,7 +34,6 @@ const Footer = () => {
             <ul className="list-unstyled second-nav">
               <li><a className="text-light" href="/about">About</a>
                 <ul className="list-unstyled">
-                  <li><a className="text-light" href="/our-team">Our Team</a></li>
                   <li><a className="text-light" href="/policies">Policies</a></li>
                   <li><a className="text-light" href="/rights-permissions">Rights and Permissions</a></li>
                 </ul>
@@ -45,13 +44,14 @@ const Footer = () => {
           </div>  
           <div className="col-md-4">
             <ul className="list-unstyled second-nav"> 
-              <li><a className="text-light" href="/publish-with-us">Publish With Us</a>
+              <li>Publish With Us
                 <ul className="list-unstyled">
                   <li><a className="text-light" href="/book-proposals">Book and Textbook Publishing</a></li>
                   <li><a className="text-light" href="/journal-proposals">Journal Publishing</a></li>
                   <li><a className="text-light" href="/conference-proposals">Conference Publishing</a></li>                  
                 </ul>
               </li>
+              <li><a className="text-light" href="/our-team">Our Team</a></li>
               <li><a className="text-light" href="/accessibility">Accessibility</a></li>
             </ul>
           </div>

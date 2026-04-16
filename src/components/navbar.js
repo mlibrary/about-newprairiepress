@@ -32,26 +32,24 @@ const Navbar = () => {
                 About
               </button>
               <div className="dropdown-menu">
-                <a className="dropdown-item" href="/about">About Us</a>                
-                <a className="dropdown-item" href="/our-team">Our Team</a>
+                <a className="dropdown-item" href="/about">About Us</a>
                 <a className="dropdown-item" href="/policies">Policies</a>
                 <a className="dropdown-item" href="/rights-permissions">Rights and Permissions</a>
               </div>
             </div>
             <a className="nav-link text-dark" href="https://fulcrum.org/newprairiepress">Books</a>
-            <a className="nav-link text-dark" href="/journals/">Journals</a>
+            <a className="nav-link text-dark" href="https://journals.newprairiepress.org/">Journals</a>
             <div className="dropdown show">
               <button className="nav-link text-dark dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
                 Publish With Us
               </button>
               <div className="dropdown-menu">
-              <a className="dropdown-item" href="/publish-with-us">Publishing With NPP</a>
                 <a className="dropdown-item" href="/book-textbook-proposals">Book and Textbook Publishing</a>                
                 <a className="dropdown-item" href="/journal-proposals">Journal Publishing</a>
                 <a className="dropdown-item" href="/conference-proposals">Conference Publishing</a>                
               </div>
             </div>
-            <a className="nav-link text-dark" href="/contact">Contact</a>
+            <a className="nav-link text-dark" href="/our-team">Our Team</a>
           </nav>
         </div>
       </div>
