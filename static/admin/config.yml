@@ -56,6 +56,8 @@ collections:
             widget: object
             fields:
               - { name: text, label: Text, widget: markdown }
+              - { name: buttonLabel, label: "Button Label" }
+              - { name: buttonUrl, label: "Button URL" }
       - file: "src/content/about.md"
         name: about
         label: About
