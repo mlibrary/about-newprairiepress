@@ -14,3 +14,203 @@
     to = "https://newprairiepress.org/:splat"
     status = 301
     force = true
+
+    from = "/ebooks/34"
+    to = "https://www.fulcrum.org/concern/monographs/tb09j962c"
+    status = 301
+
+    from = "/ebooks/36"
+    to = "https://www.fulcrum.org/concern/monographs/1z40kx07t"
+    status = 301
+
+    from = "/ebooks/16"
+    to = "https://www.fulcrum.org/concern/monographs/gh93h3045"
+    status = 301
+
+    from = "/ebooks/55"
+    to = "https://www.fulcrum.org/concern/monographs/ns064930b"
+    status = 301
+
+    from = "/ebooks/51"
+    to = "https://www.fulcrum.org/concern/monographs/mw22v882b"
+    status = 301
+
+    from = "/ebooks/54"
+    to = "https://www.fulcrum.org/concern/monographs/qv33s133w"
+    status = 301
+
+    from = "/ebooks/56"
+    to = "https://www.fulcrum.org/concern/monographs/9p290d47h"
+    status = 301
+
+    from = "/ebooks/7"
+    to = "https://www.fulcrum.org/concern/monographs/8336h554j"
+    status = 301
+
+    from = "/ebooks/31"
+    to = "https://www.fulcrum.org/concern/monographs/9s161933d"
+    status = 301
+
+    from = "/ebooks/49"
+    to = "https://www.fulcrum.org/concern/monographs/cc08hk22c"
+    status = 301
+
+    from = "/ebooks/52"
+    to = "https://www.fulcrum.org/concern/monographs/j6731715b"
+    status = 301
+
+    from = "/ebooks/40"
+    to = "https://www.fulcrum.org/concern/monographs/xs55mg87k"
+    status = 301
+
+    from = "/ebooks/50"
+    to = "https://www.fulcrum.org/concern/monographs/0z709098k"
+    status = 301
+
+    from = "/ebooks/38"
+    to = "https://www.fulcrum.org/concern/monographs/1j92gb918"
+    status = 301
+
+    from = "/ebooks/46"
+    to = "https://www.fulcrum.org/concern/monographs/3n204244s"
+    status = 301
+
+    from = "/ebooks/48"
+    to = "https://www.fulcrum.org/concern/monographs/rj4308167"
+    status = 301
+
+    from = "/ebooks/45"
+    to = "https://www.fulcrum.org/concern/monographs/cz30px00n"
+    status = 301
+
+    from = "/ebooks/11"
+    to = "https://www.fulcrum.org/concern/monographs/wp988p480"
+    status = 301
+
+    from = "/ebooks/5"
+    to = "https://www.fulcrum.org/concern/monographs/2z10wt618"
+    status = 301
+
+    from = "/ebooks/4"
+    to = "https://www.fulcrum.org/concern/monographs/bz60d082f"
+    status = 301
+
+    from = "/ebooks/42"
+    to = "https://www.fulcrum.org/concern/monographs/zc77st409"
+    status = 301
+
+    from = "/ebooks/23"
+    to = "https://www.fulcrum.org/concern/monographs/d504rp741"
+    status = 301
+
+    from = "/ebooks/26"
+    to = "https://www.fulcrum.org/concern/monographs/3b591c83r"
+    status = 301
+
+    from = "/ebooks/19"
+    to = "https://www.fulcrum.org/concern/monographs/pz50h071p"
+    status = 301
+
+    from = "/ebooks/3"
+    to = "https://www.fulcrum.org/concern/monographs/pk02cf22r"
+    status = 301
+
+    from = "/ebooks/24"
+    to = "https://www.fulcrum.org/concern/monographs/7m01bq41x"
+    status = 301
+
+    from = "/ebooks/43"
+    to = "https://www.fulcrum.org/concern/monographs/0g354j840"
+    status = 301
+
+    from = "/ebooks/33"
+    to = "https://www.fulcrum.org/concern/monographs/sq87bx84c"
+    status = 301
+
+    from = "/ebooks/53"
+    to = "https://www.fulcrum.org/concern/monographs/cf95jg376"
+    status = 301
+
+    from = "/ebooks/32"
+    to = "https://www.fulcrum.org/concern/monographs/p5547v705"
+    status = 301
+
+    from = "/ebooks/41"
+    to = "https://www.fulcrum.org/concern/monographs/kp78gk915"
+    status = 301
+
+    from = "/ebooks/1"
+    to = "https://www.fulcrum.org/concern/monographs/0g354j858"
+    status = 301
+
+    from = "/ebooks/37"
+    to = "https://www.fulcrum.org/concern/monographs/3n2042452"
+    status = 301
+
+    from = "/ebooks/30"
+    to = "https://www.fulcrum.org/concern/monographs/5m60qw30r"
+    status = 301
+
+    from = "/ebooks/15"
+    to = "https://www.fulcrum.org/concern/monographs/pr76f701q"
+    status = 301
+
+    from = "/ebooks/39"
+    to = "https://www.fulcrum.org/concern/monographs/pr76f701q"
+    status = 301
+
+    from = "/ebooks/47"
+    to = "https://www.fulcrum.org/concern/monographs/8623j2306"
+    status = 301
+
+    from = "/ebooks/17"
+    to = "https://www.fulcrum.org/concern/monographs/pk02cf231"
+    status = 301
+
+    from = "/ebooks/29"
+    to = "https://www.fulcrum.org/concern/monographs/9z9033280"
+    status = 301
+
+    from = "/ebooks/22"
+    to = "https://www.fulcrum.org/concern/monographs/1n79h781j"
+    status = 301
+
+    from = "/ebooks/20"
+    to = "https://www.fulcrum.org/concern/monographs/9s161934p"
+    status = 301
+
+    from = "/ebooks/28"
+    to = "https://www.fulcrum.org/concern/monographs/7d278x740"
+    status = 301
+
+    from = "/ebooks/10"
+    to = "https://www.fulcrum.org/concern/monographs/3j333566k"
+    status = 301
+
+    from = "/ebooks/13"
+    to = "https://www.fulcrum.org/concern/monographs/5q47rs29h"
+    status = 301
+
+    from = "/ebooks/27"
+    to = "https://www.fulcrum.org/concern/monographs/dz010t683"
+    status = 301
+
+    from = "/ebooks/35"
+    to = "https://www.fulcrum.org/concern/monographs/7w62fc658"
+    status = 301
+
+    from = "/ebooks/25"
+    to = "https://www.fulcrum.org/concern/monographs/08612s169"
+    status = 301
+
+    from = "/ebooks/44"
+    to = "https://www.fulcrum.org/concern/monographs/08612s169"
+    status = 301
+
+    from = "/ebooks/8"
+    to = "https://www.fulcrum.org/concern/monographs/k0698b678"
+    status = 301
+
+    from = "/ebooks/18"
+    to = "https://www.fulcrum.org/concern/monographs/hd76s363r"
+    status = 301
