@@ -11,5 +11,6 @@
   ## Not needed for static site generators.
   [[redirects]]
     from = "https://about.newprairiepress.org/*"
-    to = "https://newprairiepress.org:splat"
+    to = "https://newprairiepress.org/:splat"
     status = 301
+    force = status
