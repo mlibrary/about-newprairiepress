@@ -13,4 +13,4 @@
     from = "https://about.newprairiepress.org/*"
     to = "https://newprairiepress.org/:splat"
     status = 301
-    force = status
+    force = true
