@@ -356,11 +356,6 @@
  status = 301
 
 [[redirects]]
- from = "https://jrre.pus.edu"
- to = "https://journals.newprairiepress.org/jrre"
- status = 301
-
-[[redirects]]
  from = "https://newprairiepress.org/oz"
  to = "https://journals.newprairiepress.org/oz"
  status = 301
@@ -392,37 +387,37 @@
 
 [[redirects]]
  from = "https://newprairiepress.org/sfh"
- to = "http://tallgrass.newprairiepress.org/sfh"
+ to = "https://tallgrass.newprairiepress.org/sfh"
  status = 301
 
 [[redirects]]
  from = "https://newprairiepress.org/gdr"
- to = "http://tallgrass.newprairiepress.org/gdr"
+ to = "https://tallgrass.newprairiepress.org/gdr"
  status = 301
 
 [[redirects]]
  from = "https://newprairiepress.org/eap"
- to = "http://tallgrass.newprairiepress.org/eap"
+ to = "https://tallgrass.newprairiepress.org/eap"
  status = 301
 
 [[redirects]]
  from = "https://newprairiepress.org/gilt"
- to = "http://tallgrass.newprairiepress.org/gilt"
+ to = "https://tallgrass.newprairiepress.org/gilt"
  status = 301
 
 [[redirects]]
  from = "https://newprairiepress.org/jhsr"
- to = "http://tallgrass.newprairiepress.org/jhsr"
+ to = "https://tallgrass.newprairiepress.org/jhsr"
  status = 301
 
 [[redirects]]
  from = "https://newprairiepress.org/pjer"
- to = "http://tallgrass.newprairiepress.org/pjer"
+ to = "https://tallgrass.newprairiepress.org/pjer"
  status = 301
 
 [[redirects]]
  from = "https://newprairiepress.org/piper"
- to = "http://tallgrass.newprairiepress.org/piper"
+ to = "https://tallgrass.newprairiepress.org/piper"
  status = 301
 
 [[redirects]]
@@ -432,165 +427,168 @@
 
 [[redirects]]
  from = "https://newprairiepress.org/accp/*"
- to = "https://journals.newprairiepress.org/accp/:splat" 
- status = 301
+ to = "https://journals.newprairiepress.org/accp/" 
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/crossingborders/*"
- to = "https://journals.newprairiepress.org/crossingborders/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/crossingborders/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/hbr/*"
- to = "https://journals.newprairiepress.org/hbr/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/hbr/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/hbr/*"
- to = "https://journals.newprairiepress.org/hbr/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/hbr/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/ijssw/*"
- to = "https://journals.newprairiepress.org/ijssw/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/ijssw/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/kaesrr/*"
- to = "https://journals.newprairiepress.org/kaesrr/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/kaesrr/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/fgr/*"
- to = "https://journals.newprairiepress.org/fgr/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/fgr/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/networks/*"
- to = "https://journals.newprairiepress.org/networks/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/networks/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/ojrrp/*"
- to = "https://journals.newprairiepress.org/ojrrp/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/ojrrp/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/edconsiderations/*"
- to = "https://journals.newprairiepress.org/edconsiderations/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/edconsiderations/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/aerc/*"
- to = "https://journals.newprairiepress.org/aerc/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/aerc/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/jft/*"
- to = "https://journals.newprairiepress.org/jft/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/jft/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/jiaee/*"
- to = "https://journals.newprairiepress.org/jiaee/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/jiaee/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/litconnections/*"
- to = "https://journals.newprairiepress.org/litconnections/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/litconnections/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/jac/*"
- to = "https://journals.newprairiepress.org/jac/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/jac/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/biyclc/*"
- to = "https://journals.newprairiepress.org/biyclc/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/biyclc/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/urjhs/*"
- to = "https://journals.newprairiepress.org/urjhs/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/urjhs/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/advocate/*"
- to = "https://journals.newprairiepress.org/advocate/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/advocate/"
+ 
 
 [[redirects]]
  from = "https://jrre.pus.edu/*"
- to = "https://journals.newprairiepress.org/jrre/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/jrre/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/oz/*"
- to = "https://journals.newprairiepress.org/oz/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/oz/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/sttcl/*"
- to = "https://journals.newprairiepress.org/sttcl/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/sttcl/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/burgonsociety/*"
- to = "https://journals.newprairiepress.org/burgonsociety/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/burgonsociety/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/cyberbiosecurity/*"
- to = "https://journals.newprairiepress.org/cyberbiosecurity/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/cyberbiosecurity/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/culsproceedings/*"
- to = "https://journals.newprairiepress.org/culsproceedings/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/culsproceedings/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/agstatconference/*"
- to = "https://journals.newprairiepress.org/agstatconference/:splat"
- status = 301
+ to = "https://journals.newprairiepress.org/agstatconference/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/sfh/*"
- to = "http://tallgrass.newprairiepress.org/sfh/:splat"
- status = 301
+ to = "https://tallgrass.newprairiepress.org/sfh/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/gdr/*"
- to = "http://tallgrass.newprairiepress.org/gdr/:splat"
- status = 301
+ to = "https://tallgrass.newprairiepress.org/gdr/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/eap/*"
- to = "http://tallgrass.newprairiepress.org/eap/:splat"
- status = 301
+ to = "https://tallgrass.newprairiepress.org/eap/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/gilt/*"
- to = "http://tallgrass.newprairiepress.org/gilt/:splat"
- status = 301
+ to = "https://tallgrass.newprairiepress.org/gilt/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/jhsr/*"
- to = "http://tallgrass.newprairiepress.org/jhsr/:splat"
- status = 301
+ to = "https://tallgrass.newprairiepress.org/jhsr/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/pjer/*"
- to = "http://tallgrass.newprairiepress.org/pjer/:splat"
- status = 301
+ to = "https://tallgrass.newprairiepress.org/pjer/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/piper/*"
- to = "http://tallgrass.newprairiepress.org/piper/:splat"
- status = 301
+ to = "https://tallgrass.newprairiepress.org/piper/"
+ 
 
 [[redirects]]
  from = "https://newprairiepress.org/ufss/*"
- to = "http://ufss.tallgrass.newprairiepress.org//:splat"
- status = 301
+ to = "http://ufss.tallgrass.newprairiepress.org/"
+ 
+[[redirects]]
+ from = "/cgi/*"
+ to = "https://newprairiepress.org/"
