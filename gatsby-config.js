@@ -7,6 +7,14 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+// React 19 no longer ships the UMD files that gatsby-plugin-decap-cms copies.
+const bundleCmsDependencies = config => {
+  config.externals = []
+  config.plugins = config.plugins.filter(plugin =>
+    ![`CopyPlugin`, `HtmlWebpackTagsPlugin`].includes(plugin.constructor.name)
+  )
+}
+
 module.exports = {
   siteMetadata: {
     title: `New Prairie Press`,
@@ -14,7 +22,6 @@ module.exports = {
     author: `New Prairie Press`,    
   },
   plugins: [
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,30 +30,24 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-gtag`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // your google analytics tracking id
-        trackingId: `G-385439773`,
-        // Puts tracking script in the head instead of the body
-        head: true,
-        // enable ip anonymization
-        anonymize: false,
+        trackingIds: [`G-385439773`],
+        gtagConfig: {
+          anonymize_ip: false,
+        },
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        implementation: require("node-sass"),        
         sassOptions: {
-          precision: 6,
+          charset: false,
         },
       }
-    },
-    {
-      resolve: `gatsby-plugin-env-variables`,
-      options: {
-        allowList: ["BRANCH"]
-      },
     },
     {
       resolve: `gatsby-plugin-decap-cms`,
@@ -55,9 +56,10 @@ module.exports = {
          * One convention is to place your Decap CMS customization code in a
          * `src/cms` directory.
          */
-        manualInit: true, // https://github.com/netlify/netlify-cms/issues/1737#issuecomment-530992998 HELIO-3241
+        manualInit: true,
         enableIdentityWidget: false,
         modulePath: `${__dirname}/src/cms/cms.js`,
+        customizeWebpackConfig: bundleCmsDependencies,
       },
     },
     {
